@@ -11,15 +11,16 @@ FROM node:current
 WORKDIR /app/portfolio/
 
 # Copy over the package.js file
-COPY package*.json ./
+COPY package*.json ./app/portfolio/
 
 # Install all the dependencies
 RUN npm install
+RUN npm install -g nodemon
 # If you are building your code for production
 # RUN npm ci --only=production
 
 # Copy over all the app files
-COPY . .
+COPY . ./app/portfolio/
 
 # Create an environment variable
 ENV PORT=20000
