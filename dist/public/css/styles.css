@@ -1,0 +1,95 @@
+/*
+* {
+    font-family: 'Calibre';
+    src: url(/static/Calibre-Regular-b63c62e591d0c8fbe2c8f009883346d5.woff2) format('woff2'), url(/static/Calibre-Regular-e08232148510aade507c2af9bb66acd0.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+}
+*/
+
+* {
+    font-family: "Calibre", "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    ;
+}
+
+body {
+    background-color: #0D1321;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+
+.yspacing-25 {
+    height: 25vh;
+}
+
+.yspacing-50 {
+    height: 50vh;
+}
+
+.text-green {
+    color: #BDBF09;
+}
+
+.text-white {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.text-grey {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.text-light-blue {
+    color: #00A7E1;
+}
+
+.text-blue {
+    color: #007EA7;
+}
+
+.text-dark-blue {
+    color: #0D1321;
+}
+
+.big-heading {
+    font-size: clamp(40px, 8vw, 80px);
+}
+
+p {
+    font-size: 20px;
+}
+
+.email-link-spacer {
+    height: 30px;
+}
+
+.email-link {
+    border: 1px solid #00A7E1;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.email-link:hover {
+    text-decoration: none;
+    color: rgba(0, 167, 225, 1);
+    background-color: rgba(0, 167, 225, 0.2);
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.navbar {
+    display: flex;
+}
+
+.icon-container {
+    margin: 10px;
+}
+
+.icon-img {
+    width: 40px;
+    filter: grayscale(100%) contrast(0%);
+}
