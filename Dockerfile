@@ -26,7 +26,7 @@ COPY . ./app/portfolio/
 ENV PORT=20000
 
 # Start the Application
-CMD ["npm", "run", "serve:prod"]
+CMD ["npm", "run", "start"]
 
 # RUN npm install -g nodemon
 # Bundle app source
