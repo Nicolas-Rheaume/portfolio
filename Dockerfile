@@ -11,7 +11,7 @@ FROM node:current
 WORKDIR /app/portfolio/
 
 # Copy over the package.js file
-COPY package*.json .
+COPY package*.json ./
 
 # Install all the dependencies
 RUN npm install
