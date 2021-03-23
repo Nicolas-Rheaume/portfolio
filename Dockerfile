@@ -23,7 +23,7 @@ RUN npm install -g nodemon
 COPY . .
 
 # Create an environment variable
-ENV PORT=20000
+ENV PORT=8080
 
 # Start the Application
 CMD ["npm", "run", "start"]
@@ -33,7 +33,7 @@ CMD ["npm", "run", "start"]
 #COPY ./ ./usr/src/collab/server/
 
 # Bind port 3000 to have it mapped by the docker daemon
-EXPOSE 20000
+EXPOSE 8080
 
 ## THE LIFE SAVER
 # ADD https://github.com/ufoscout/docker-compose-wait/releases/download/2.2.1/wait /wait
