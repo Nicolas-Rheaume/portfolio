@@ -18,6 +18,7 @@ jobs:
 
     - name: Remove old docker image
       run: docker container rm nick-rheaume/portfolio || true
+      run: docker image rm nick-rheaume/portfolio || true
 
     - name: Checkout the repository
       uses: actions/checkout@v2
