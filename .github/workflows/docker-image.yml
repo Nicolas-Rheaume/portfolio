@@ -18,5 +18,5 @@ jobs:
     - name: Build the Docker image
       run: docker build -t nick-rheaume/portfolio .
       #run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
-    - name: Run the Docker image
-      run: docker container run nick-rheaume/portfolio
+    #- name: Run the Docker image
+     # run: docker container run nick-rheaume/portfolio
