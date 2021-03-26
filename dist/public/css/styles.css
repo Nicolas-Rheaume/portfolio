@@ -93,3 +93,8 @@ p {
     width: 40px;
     filter: grayscale(100%) contrast(0%);
 }
+
+.small-icon-img {
+    width: 20px;
+    filter: grayscale(100%) contrast(0%);
+}
